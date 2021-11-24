@@ -24,7 +24,7 @@ namespace EntregaFacil
         {
             if (txtSenha.Text == txtConfirmar.Text)
             {
-                sql = string.Format("insert into usuario(NOM_USUARIO, EMAIL_USUARIO,SENHA_USUARIO,TIPO_USUARIO) values('{0}','{1}','{2}', '{3}')", txtNome.Text, txtEmail.Text, txtSenha.Text,1) ;
+                sql = string.Format("insert into usuario(NOM_USUARIO, EMAIL_USUARIO,SENHA_USUARIO,TIPO_USUARIO) values('{0}','{1}','{2}', '{3}')", txtNome.Text, txtEmail.Text, txtSenha.Text, 1) ;
                 bd.AlterarDados(sql);
                 MessageBox.Show("Cadastro Concluído com sucesso!", "Usuário", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 limpar();

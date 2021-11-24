@@ -90,11 +90,29 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConexaoBD.cs" />
-    <Compile Include="frmInicio.cs">
+    <Compile Include="frmCadProduto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmInicio.Designer.cs">
-      <DependentUpon>frmInicio.cs</DependentUpon>
+    <Compile Include="frmCadProduto.Designer.cs">
+      <DependentUpon>frmCadProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmListProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmListProduto.Designer.cs">
+      <DependentUpon>frmListProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRotas.Designer.cs">
+      <DependentUpon>frmRotas.cs</DependentUpon>
     </Compile>
     <Compile Include="frmCadastro.cs">
       <SubType>Form</SubType>
@@ -111,11 +129,20 @@
     <Compile Include="objLogin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmCadProduto.resx">
+      <DependentUpon>frmCadProduto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCadastro.resx">
       <DependentUpon>frmCadastro.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmInicio.resx">
-      <DependentUpon>frmInicio.cs</DependentUpon>
+    <EmbeddedResource Include="frmListProduto.resx">
+      <DependentUpon>frmListProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRotas.resx">
+      <DependentUpon>frmRotas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>

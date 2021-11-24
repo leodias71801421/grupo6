@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EntregaFacil
 {
-    public partial class frmInicio : Form
+    public partial class frmRotas : Form
     {
-        public frmInicio()
+        public frmRotas()
         {
             InitializeComponent();
         }

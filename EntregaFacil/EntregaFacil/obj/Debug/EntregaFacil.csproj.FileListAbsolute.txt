@@ -58,10 +58,13 @@ E:\GitHub\grupo6\EntregaFacil\EntregaFacil\bin\Debug\System.Numerics.Vectors.xml
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.csproj.AssemblyReference.cache
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.Cadastrar.resources
-E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.frmInicio.resources
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.Login.resources
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.Properties.Resources.resources
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.csproj.GenerateResource.cache
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.csproj.CoreCompileInputs.cache
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.exe
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.pdb
+E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.FrmMenu.resources
+E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.frmRotas.resources
+E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.frmCadProduto.resources
+E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.frmListProduto.resources

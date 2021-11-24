@@ -34,7 +34,7 @@ namespace EntregaFacil
             if (l.ValidarUsuario(txtUser.Text, txtSenha.Text))
             {
                 this.Visible = false;
-                frmInicio inicio = new frmInicio();
+                FrmMenu inicio = new FrmMenu();
                 inicio.ShowDialog();
                 this.Visible = true;
             }

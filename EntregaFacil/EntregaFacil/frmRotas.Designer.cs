@@ -1,7 +1,7 @@
 ﻿
 namespace EntregaFacil
 {
-    partial class frmInicio
+    partial class frmRotas
     {
         /// <summary>
         /// Required designer variable.
