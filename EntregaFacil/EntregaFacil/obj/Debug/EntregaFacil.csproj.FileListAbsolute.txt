@@ -68,3 +68,4 @@ E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.FrmMenu.resour
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.frmRotas.resources
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.frmCadProduto.resources
 E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.frmListProduto.resources
+E:\GitHub\grupo6\EntregaFacil\EntregaFacil\obj\Debug\EntregaFacil.frmCadFuncionario.resources

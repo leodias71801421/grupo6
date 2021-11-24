@@ -132,18 +132,19 @@ namespace EntregaFacil
             this.progressBar1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.progressBar1.Location = new System.Drawing.Point(0, 0);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1902, 47);
+            this.progressBar1.Size = new System.Drawing.Size(2552, 47);
             this.progressBar1.Step = 50;
             this.progressBar1.TabIndex = 2;
             // 
-            // frmInicio
+            // frmRotas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.splitContainer2);
-            this.Name = "frmInicio";
+            this.Name = "frmRotas";
             this.Text = "Inicio";
+            this.Load += new System.EventHandler(this.frmRotas_Load);
             this.splitContainer2.Panel1.ResumeLayout(false);
             this.splitContainer2.Panel1.PerformLayout();
             this.splitContainer2.Panel2.ResumeLayout(false);

@@ -34,5 +34,11 @@ namespace EntregaFacil
             frmListProduto listprod = new frmListProduto();
             listprod.ShowDialog();
         }
+
+        private void BtnCadFunc_Click(object sender, EventArgs e)
+        {
+            frmCadFuncionario cadFunc = new frmCadFuncionario();
+            cadFunc.ShowDialog();
+        }
     }
 }

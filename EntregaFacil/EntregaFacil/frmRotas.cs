@@ -27,16 +27,10 @@ namespace EntregaFacil
                 MessageBox.Show("Por favor informe o ponto chegada");
             else
             {
-                // Neste programa de exemplo eu uso apenas dois pontos: Inicio e Destino.
-                // porém podem ser usados mais pontos se quiser criar uma rota mais complexa.
-                NavigateToRoute(new string[2] { textBox1.Text, textBox2.Text });
+               NavigateToRoute(new string[2] { textBox1.Text, textBox2.Text });
             }
         }
-
-        /// <summary>
-        /// Navega para uma rota composta por um ou mais pontos geográficos
-        /// </summary>
-        /// <param name="points">Um array/coleção contendo uma lista de pontos geográficos necessários para se criar a rota. Os pontos deve estar ordenados do inicial para o final!</param>
+              
         public void NavigateToRoute(IEnumerable<string> points)
         {
             string baseAdress = "https://www.google.com.br/maps/dir/";
@@ -51,9 +45,6 @@ namespace EntregaFacil
             webBrowser1.Navigate(new Uri(url.ToString()));
         }
 
-        /// <summary>
-        /// Este método serve para corrigir problemas de script relacionados ao WebBrowser, e DEVE ser chamado na inicialização do form!
-        /// </summary>
         private void FixBrowser()
         {
             try
@@ -118,9 +109,8 @@ namespace EntregaFacil
             }
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void frmRotas_Load(object sender, EventArgs e)
         {
-            //Chamada necessária:
             FixBrowser();
         }
 
@@ -137,5 +127,6 @@ namespace EntregaFacil
             progressBar1.Style = ProgressBarStyle.Marquee;
         }
 
+        
     }
 }

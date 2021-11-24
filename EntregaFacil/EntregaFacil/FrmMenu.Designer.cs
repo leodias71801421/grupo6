@@ -63,6 +63,7 @@ namespace EntregaFacil
             this.BtnCadFunc.TabIndex = 2;
             this.BtnCadFunc.Text = "Cadastro de funcionário";
             this.BtnCadFunc.UseVisualStyleBackColor = true;
+            this.BtnCadFunc.Click += new System.EventHandler(this.BtnCadFunc_Click);
             // 
             // BtnListProduto
             // 

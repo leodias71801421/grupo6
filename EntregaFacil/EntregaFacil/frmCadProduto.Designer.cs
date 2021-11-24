@@ -47,7 +47,6 @@ namespace EntregaFacil
             // 
             this.txtDscProduto.Location = new System.Drawing.Point(196, 38);
             this.txtDscProduto.Name = "txtDscProduto";
-            this.txtDscProduto.PasswordChar = '*';
             this.txtDscProduto.Size = new System.Drawing.Size(290, 20);
             this.txtDscProduto.TabIndex = 14;
             // 
@@ -81,7 +80,7 @@ namespace EntregaFacil
             this.btnCadastrarProd.UseVisualStyleBackColor = true;
             this.btnCadastrarProd.Click += new System.EventHandler(this.btnCadastrarProd_Click);
             // 
-            // fmrCadProduto
+            // frmCadProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -91,7 +90,7 @@ namespace EntregaFacil
             this.Controls.Add(this.txtDscProduto);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "fmrCadProduto";
+            this.Name = "frmCadProduto";
             this.Text = "Cadastro de Produto";
             this.ResumeLayout(false);
             this.PerformLayout();
